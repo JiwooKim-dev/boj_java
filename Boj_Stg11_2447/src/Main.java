@@ -34,7 +34,7 @@ public class Main {
 		int m = n / 3;
 		for (int i=0 ; i<3 ; i++){
 			for (int j=0 ; j<3 ; j++){
-				if (i==1 && j==1) continue;
+				if (i==1 && j==1) continue;	// 3x3의 가운데만 비우고 재귀 호출
 				make_stars(m, row + i*m, col + j*m);
 			}
 		}
