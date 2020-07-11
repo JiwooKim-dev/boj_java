@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 // 백준 14888 '연산자 끼워넣기'
 // Backtracking
-// 2020.07.11
+// 2020.07.10
 
 public class Main {
 
