@@ -23,21 +23,29 @@ public class Main {
 		N = Integer.parseInt(tk.nextToken());
 		res = new long[N + 1];
 
-		bw.write(Long.toString(fib(N)));
+		// bw.write(Long.toString(fib(N)));
+
+		res[0] = 0;
+		res[1] = 1;
+		for (int i = 2; i <= N; i++) {
+			res[i] = res[i - 1] + res[i - 2];
+		}
+
+		bw.write(Long.toString(res[N]));
 
 		br.close();
 		bw.close();
 	}
 
-	private static long fib(int n) {
-
-		if (n == 1)
-			return 1;
-		if (n == 2)
-			return 1;
-		if (res[n] != 0)
-			return res[n];
-		return res[n] = fib(n - 1) + fib(n - 2);
-	}
+//	private static long fib(int n) {
+//
+//		if (n == 1)
+//			return 1;
+//		if (n == 2)
+//			return 1;
+//		if (res[n] != 0)
+//			return res[n];
+//		return res[n] = fib(n - 1) + fib(n - 2);
+//	}
 
 }
