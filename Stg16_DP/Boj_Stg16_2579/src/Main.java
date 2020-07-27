@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 2579 '계단 오르기'
+// 백준 2579 '계단 오르기'
 // DP
 // 2020.07.20
 
