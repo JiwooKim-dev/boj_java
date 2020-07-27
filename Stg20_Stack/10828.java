@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-// 백준 10828 ''
+// 백준 10828 '스택'
 // Stack
 // 2020.07.27
 
