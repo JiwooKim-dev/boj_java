@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-// πÈ¡ÿ 10828 'Ω∫≈√'
+// Î∞±Ï§Ä 10828 ''
 // Stack
 // 2020.07.27
 
