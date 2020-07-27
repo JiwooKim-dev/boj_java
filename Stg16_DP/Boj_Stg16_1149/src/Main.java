@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-// πÈ¡ÿ 1149 'RGB ∞≈∏Æ`
+// Î∞±Ï§Ä 1149 'RGBÍ±∞Î¶¨`
 // DP
 // 2020.07.18
 
