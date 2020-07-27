@@ -1,4 +1,4 @@
-// πÈ¡ÿ 9663 'N-Queen'
+// Î∞±Ï§Ä 9663 'N-Queen'
 // Backtracking
 
 import java.io.BufferedReader;
