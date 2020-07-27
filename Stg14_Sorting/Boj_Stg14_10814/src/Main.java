@@ -1,4 +1,4 @@
-// ¹éÁØ 10814 '³ªÀÌ¼ø Á¤·Ä'
+// ë°±ì¤€ 10814 'ë‚˜ì´ìˆœ ì •ë ¬'
 // Comparable
 
 import java.io.BufferedReader;
