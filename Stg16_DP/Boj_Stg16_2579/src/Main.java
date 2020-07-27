@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 2579 '°è´Ü ¿À¸£±â'
+// Â¹Ã©ÃÃ˜ 2579 'ê³„ë‹¨ ì˜¤ë¥´ê¸°'
 // DP
 // 2020.07.20
 
