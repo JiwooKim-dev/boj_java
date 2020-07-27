@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-// πÈ¡ÿ 9251 'LCS'
+// Î∞±Ï§Ä 9251 'LCS'
 // DP
 // 2020.07.24
 
