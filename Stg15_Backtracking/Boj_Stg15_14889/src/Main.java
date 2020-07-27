@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 14889 '½ºÅ¸Æ®¿Í ¸µÅ©'
+// ë°±ì¤€ 14889 'ìŠ¤íƒ€íŠ¸ì™€ ë§í¬'
 // Backtracking
 // 2020.07.11
 
