@@ -1,4 +1,4 @@
-// ¹éÁØ 2580¹ø '½ºµµÄí'
+// ë°±ì¤€ 2580 'ìŠ¤ë„ì¿ '
 // Backtracking
 
 import java.io.BufferedReader;
@@ -15,20 +15,20 @@ public class Main {
 
 	static int[][] sudoku = new int[9][9];
 
-	// Ã¤¿ö¾ßÇÏ´Â Ä­ ÁÂÇ¥ (x, y)
+	// ì±„ì›Œì•¼í•˜ëŠ” ì¹¸ ì¢Œí‘œ (x, y)
 	static ArrayList<Integer> xBlanks = new ArrayList<Integer>();
 	static ArrayList<Integer> yBlanks = new ArrayList<Integer>();
 
-	static boolean[][] row = new boolean[9][10]; // row[i][j] : i¹øÂ° row¿¡ ¼ıÀÚ j°¡ ¾²¿´´Â°¡
-	static boolean[][] col = new boolean[9][10]; // col[i][j] : i¹øÂ° col¿¡ ¼ıÀÚ j°¡ ¾²¿´´Â°¡
-	static boolean[][] square = new boolean[9][10]; // square[i][j] : i¹øÂ° square¿¡ ¼ıÀÚ j°¡ ¾²¿´´Â°¡
+	static boolean[][] row = new boolean[9][10]; // row[i][j] : ië²ˆì§¸ rowì— ìˆ«ì jê°€ ì“°ì˜€ëŠ”ê°€
+	static boolean[][] col = new boolean[9][10]; // col[i][j] : ië²ˆì§¸ colì— ìˆ«ì jê°€ ì“°ì˜€ëŠ”ê°€
+	static boolean[][] square = new boolean[9][10]; // square[i][j] : ië²ˆì§¸ squareì— ìˆ«ì jê°€ ì“°ì˜€ëŠ”ê°€
 
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-		// ÀÔ·Â¹Ş°í °¢ ¹è¿­¿¡ ÀúÀå
+		// ì…ë ¥ë°›ê³  ê° ë°°ì—´ì— ì €ì¥
 		for (int i = 0; i < 9; i++) {
 			StringTokenizer tk = new StringTokenizer(br.readLine());
 			for (int j = 0; j < 9; j++) {
@@ -71,13 +71,13 @@ public class Main {
 		int x = xBlanks.get(count);
 		int y = yBlanks.get(count);
 		for (int i = 1; i <= 9; i++) {
-			// Çà, ¿­, »ç°¢Çü Ã¼Å©
+			// í–‰, ì—´, ì‚¬ê°í˜• ì²´í¬
 			if (!row[x][i] && !col[y][i] && !square[squareIndex(x, y)][i]) {
 				sudoku[x][y] = i;
 				row[x][i] = true;
 				col[y][i] = true;
 				square[squareIndex(x, y)][i] = true;
-				backtracking(count + 1);	// ¼ıÀÚ Ã¤¿ö³ÖÀº ÈÄ ´ÙÀ½ ÁÂÇ¥ È£Ãâ
+				backtracking(count + 1);	// ìˆ«ì ì±„ì›Œë„£ì€ í›„ ë‹¤ìŒ ì¢Œí‘œ í˜¸ì¶œ
 
 				sudoku[x][y] = 0;
 				row[x][i] = false;
