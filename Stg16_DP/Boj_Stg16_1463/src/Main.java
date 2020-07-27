@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 1463 '1·Î ¸¸µé±â'
+// ë°±ì¤€ 1463 '1ë¡œ ë§Œë“¤ê¸°'
 // DP
 // 2020.07.20
 
