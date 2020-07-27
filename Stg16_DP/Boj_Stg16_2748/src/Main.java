@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 2748 '피보나치 수 2'
+// 백준 2748 '피보나치 수 2'
 // DP
 // 2020.07.13
 
