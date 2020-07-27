@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 2565 'Àü±êÁÙ'
+// ë°±ì¤€ 2565 'ì „ê¹ƒì¤„'
 // DP
 // 2020.07.24
 
