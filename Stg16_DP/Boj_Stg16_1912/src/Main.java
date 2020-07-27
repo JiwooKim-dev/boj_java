@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-// ¹éÁØ 1912 '연속합'
+// 백준 1912 '연속합'
 // DP
 // 2020.07.25
 
