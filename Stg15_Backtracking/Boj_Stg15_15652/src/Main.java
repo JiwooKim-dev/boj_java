@@ -1,4 +1,4 @@
-//  15652 'N과 M (4)'
+// 백준 15652 'N과 M (4)'
 // Backtracking
 
 import java.io.BufferedReader;
