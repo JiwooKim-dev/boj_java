@@ -44,7 +44,3 @@ Arrays.sort(arr, new Comparator<MyClass>() {
   }
 });
 ```
-
-```java
-
-```
