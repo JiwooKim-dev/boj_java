@@ -1,4 +1,4 @@
-// ¹éÁØ 15650¹ø 'N°ú M (2)'
+// ë°±ì¤€ 15650 'N M (2)'
 // Backtracking
 
 import java.io.BufferedReader;
