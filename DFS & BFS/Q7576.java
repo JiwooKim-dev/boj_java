@@ -20,7 +20,6 @@ public class Q7576 {
     private static int mapY;
     private static int[][] map;
     private static boolean[][] visited;
-    private static boolean[][] target;
     private static ArrayList<Tomato> initialRipen = new ArrayList<>();
 
     private static int count;
@@ -76,10 +75,6 @@ public class Q7576 {
         visited = new boolean[mapY][mapX];
         for (boolean[] row : visited)
             Arrays.fill(row, false);
-
-        target = new boolean[mapY][mapX];
-        for (boolean[] row : target)
-            Arrays.fill(row, true);
 
         for (int i = 0; i < mapY; i++)
             for (int j = 0; j < mapX; j++) {
