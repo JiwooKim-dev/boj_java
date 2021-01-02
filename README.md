@@ -1,6 +1,5 @@
 # 백준 알고리즘 
-* 백준 주제별 알고리즘 문제풀이
-* [풀이설명](https://velog.io/@jwkim/series/%EB%B0%B1%EC%A4%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%92%80%EC%9D%B4)
+백준 주제별 알고리즘 문제풀이
 
 <details markdown="1">
 <summary>문제 목록</summary>
@@ -48,3 +47,6 @@
 1012 1260 1697 2178 2206 2606 2667 7569 7576 
 
 </details>
+
+
+[상세 설명](https://velog.io/@jwkim/series/%EB%B0%B1%EC%A4%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%92%80%EC%9D%B4)
